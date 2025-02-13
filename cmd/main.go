@@ -4,11 +4,12 @@ import (
 	"log"
 	"net"
 
-	"post-service-grpc/internal/service"
-	"post-service-grpc/pkg/db"
-	pb "post-service-grpc/proto-gen-go/proto"
+	"github.com/chi07/proto/proto-gen-go/pb" // Use this from external package
 
 	"google.golang.org/grpc"
+
+	"post-service-grpc/internal/service"
+	"post-service-grpc/pkg/db"
 )
 
 func main() {

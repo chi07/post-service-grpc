@@ -5,8 +5,9 @@ import (
 	"log"
 	"strconv"
 
+	"github.com/chi07/proto/proto-gen-go/pb" // Use this from external package
+
 	"post-service-grpc/internal/repository"
-	pb "post-service-grpc/proto-gen-go/proto"
 )
 
 // PostService struct
